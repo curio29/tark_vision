@@ -1,4 +1,4 @@
-Introduction
+Introduction: 
 The ESP32-CAM based robotic car is an embedded wireless surveillance and movement control platform designed for real-time video streaming and remote navigation. The system integrates camera streaming, motor control, wireless communication, and mobile application control into a compact low-cost architecture.
 The robotic car uses the ESP32-CAM module as the central processing and communication unit. The ESP32-CAM hosts its own Wi-Fi Access Point (AP), allowing a mobile application to connect directly without requiring an external router or internet connection. In addition to Wi-Fi communication, Bluetooth Serial communication is integrated to provide low-latency movement control.
 The system supports live MJPEG video streaming, differential motor steering, PWM speed control, and real-time wireless command execution. This architecture is suitable for applications such as surveillance robots, FPV robotic vehicles, educational embedded systems projects, IoT experimentation, and remote inspection systems.
