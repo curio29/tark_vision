@@ -1,0 +1,36 @@
+name: tark_vision_04
+description: "project for protyping and testng."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  webview_flutter: ^4.13.0
+  network_info_plus: ^7.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/images/logo.jpeg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.jpeg
+    - assets/images/whitenoise.gif
+
+
